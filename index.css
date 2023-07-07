@@ -1,0 +1,164 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.hero-section {
+  background-image: url('recuitment.jpg');
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  text-align: center;
+  color: #0a0a0a;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.feature-section {
+    
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.feature-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feature-description {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.benefits-section {
+  background-color: #003366;
+  padding: 80px 0;
+  color: #ffffff;
+  text-align: center;
+}
+.benefits-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.benefit {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #004080;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.benefit-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.benefit-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.cta-section {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
+}
+.cta-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.cta-button {
+  background-color: #003366;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.cta-button:hover {
+  background-color: #002244;
+}
+.contact-section {
+  background-color: #003366;
+  padding: 80px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.benefits-list{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+    
+}
+.section-title {
+    text-align: center;
+    display: block;
+}
+.form{
+    display: flex;
+    padding:0px 0px 0px 0px;
+    width:50%;
+}
+input{
+    padding: 8px;
+    width:35%;
+    margin: 20px 0px
+}
+textarea{
+    margin:0px 20px 0px 20px ;
+    resize: none;
+}
+input[type="submit"]{
+    background-color: #dd480e;
+}
+.s{
+    display: flex;
+    flex-wrap: wrap;
+}
+.con{
+    width:50%;
+    text-align: center;
+}
+.con ul{
+    list-style-type: none;
+    line-height: 35px ;
+    padding: 0px 20px 0px 300px
+}

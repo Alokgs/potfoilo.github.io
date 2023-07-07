@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Recruitment Solution - Candidate Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .search-section {
+      background-color: #f8f8f8;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .search-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+    .search-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .search-input {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+      margin-right: 10px;
+    }
+    .search-button {
+      background-color: #003366;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .search-button:hover {
+      background-color: #002244;
+    }
+    .candidate-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .candidate {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .candidate-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .candidate-details {
+      font-size: 16px;
+      color: #666666;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Online Recruitment Solution</h1>
+    <h3>Candidate Search</h3>
+  </div>
+
+  <div class="search-section">
+    <h2 class="search-title">Find Candidates</h2>
+    <form class="search-form">
+      <input class="search-input" type="text" placeholder="Location">
+      <input class="search-input" type="text" placeholder="Job Role">
+      <button class="search-button" type="submit">Search</button>
+    </form>
+
+    <h2 class="search-title">Candidates Found</h2>
+    <div class="candidate-list">
+      <div class="candidate">
+        <h3 class="candidate-name">John Doe</h3>
+        <p class="candidate-details">Location: New York</p>
+        <p class="candidate-details">Job Role: Software Engineer</p>
+      </div>
+      <div class="candidate">
+        <h3 class="candidate-name">Jane Smith</h3>
+        <p class="candidate-details">Location: San Francisco</p>
+        <p class="candidate-details">Job Role: UI/UX Designer</p>
+      </div>
+      <div class="candidate">
+        <h3 class="candidate-name">Michael Johnson</h3>
+        <p class="candidate-details">Location: London</p>
+        <p class="candidate-details">Job Role: Project Manager</p>
+      </div>
+      <div class="candidate">
+        <h3 class="candidate-name">Emily Davis</h3>
+        <p class="candidate-details">Location: Sydney</p>
+        <p class="candidate-details">Job Role: Marketing Specialist</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
